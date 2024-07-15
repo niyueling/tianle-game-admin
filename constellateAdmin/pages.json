@@ -1,0 +1,371 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			},
+			"meta": {
+				"auth": true
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			},
+			"meta": {
+				"auth": false
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			},
+			"meta": {
+				"auth": false
+			}
+		},
+		{
+			"path": "pages/regist/regist",
+			"style": {
+				"navigationBarTitleText": "登录"
+			},
+			"meta": {
+				"auth": false
+			} 
+		},
+		{
+			"path": "pages/finance/finance",
+			"style": {
+				"navigationBarTitleText": "财务管理"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/shop_data/shop_data",
+			"style": {
+				"navigationBarTitleText": "数据"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"meta": {
+				"auth": false
+			}
+		},
+		{
+			"path": "components/uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪"
+			}
+		},
+		{
+			"path": "pages/user_finance/user_recharge_record",
+			"style": {
+				"navigationBarTitleText": "用户充值记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/user_finance/user_recharge_statistics",
+			"style": {
+				"navigationBarTitleText": "用户充值统计"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/user_finance/user_gem_record",
+			"style": {
+				"navigationBarTitleText": "用户房卡记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/user_finance/user_gold_record",
+			"style": {
+				"navigationBarTitleText": "用户金币记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/user_finance/user_redpocket_record",
+			"style": {
+				"navigationBarTitleText": "红包领取记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/user_finance/user_redpocket_withdraw_record",
+			"style": {
+				"navigationBarTitleText": "红包提现记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/user_finance/room_record",
+			"style": {
+				"navigationBarTitleText": "房间记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/user_finance/user_redpocket_ranking",
+			"style": {
+				"navigationBarTitleText": "红包排行榜"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/agency_finance/agency_recharge_record",
+			"style": {
+				"navigationBarTitleText": "充值记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/agency_finance/agency_gem_record",
+			"style": {
+				"navigationBarTitleText": "房卡记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/club_finance/club_account_record",
+			"style": {
+				"navigationBarTitleText": "流水记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/club_finance/club_gold_record",
+			"style": {
+				"navigationBarTitleText": "金币记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/club_finance/room_record",
+			"style": {
+				"navigationBarTitleText": "房间记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/club_finance/club_gold_manage_record",
+			"style": {
+				"navigationBarTitleText": "金币管理记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/good_finance/order_record",
+			"style": {
+				"navigationBarTitleText": "订单记录"
+			},
+			"meta": {
+				"auth": true
+			}
+		},
+		{
+			"path": "pages/regist/regist",
+			"style": {
+				"navigationBarTitleText": "用户授权"
+			},
+			"meta": {
+				"auth": false
+			}
+		},
+		{
+			"path": "pages/webview/auth_init",
+			"style": {
+				"navigationBarTitleText": "绑定手机"
+			},
+			"meta": {
+				"auth": false
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "天乐麻将"
+			},
+			"meta": {
+				"auth": false
+			}
+		},
+		{
+			"path": "pages/website/website",
+			"style": {
+				"navigationBarTitleText": "天乐麻将"
+			},
+			"meta": {
+				"auth": false
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "bundle",
+		"pages": [{
+				"path": "pages/user_profile/user_profile",
+				"style": {
+					"navigationBarTitleText": "个人设置"
+				},
+				"meta": {
+					"auth": true
+				}
+			},
+
+			{
+				"path": "pages/user_wallet/user_wallet",
+				"style": {
+					"navigationBarTitleText": "商家钱包"
+				},
+				"meta": {
+					"auth": true
+				}
+			},
+			{
+				"path": "pages/shop_setting/shop_setting",
+				"style": {
+					"navigationBarTitleText": "商家设置"
+				},
+				"meta": {
+					"auth": true
+				}
+			},
+			{
+				"path": "pages/run_time/run_time",
+				"style": {
+					"navigationBarTitleText": "编辑营业时间"
+				},
+				"meta": {
+					"auth": true
+				}
+			},
+			{
+                "path" : "pages/recharge/recharge",
+                "style" : {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+            },
+			{
+			    "path" : "pages/user_profile/user_bind_profile",
+			    "style" : {
+			        "navigationBarTitleText": "账号绑定",
+			        "enablePullDownRefresh": false
+			    },
+				"meta": {
+					"auth": false
+				}
+			},
+			{
+				"path": "pages/user_recharge/user_recharge",
+				"style": {
+					"navigationBarTitleText": "充值"
+				},
+				"meta": {
+					"auth": false
+				}
+			},
+			{
+				"path": "pages/user_recharge/user_recharge_alipay",
+				"style": {
+					"navigationBarTitleText": "充值"
+				},
+				"meta": {
+					"auth": false
+				}
+			},
+			{
+				"path": "pages/server_explan/server_explan",
+				"style": {
+					"navigationBarTitleText": "用户协议"
+				},
+				"meta": {
+					"auth": false
+				}
+			}
+        ]
+	}],
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#3868F9",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/images/tabbar/icon_home.png",
+				"selectedIconPath": "/static/images/tabbar/icon_home_s.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/finance/finance",
+				"iconPath": "/static/images/tabbar/icon_goods.png",
+				"selectedIconPath": "/static/images/tabbar/icon_goods_s.png",
+				"text": "财务"
+			},
+			{
+				"pagePath": "pages/shop_data/shop_data",
+				"iconPath": "/static/images/tabbar/icon_order.png",
+				"selectedIconPath": "/static/images/tabbar/icon_order_s.png",
+				"text": "数据"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/images/tabbar/icon_user.png",
+				"selectedIconPath": "/static/images/tabbar/icon_user_s.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"h5": {
+			"navigationStyle": "custom"
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/components/uview-ui/components/u-$1/u-$1.vue",
+			"^w-(.*)": "@/components/widgets/$1/$1.vue"
+		}
+	}
+}

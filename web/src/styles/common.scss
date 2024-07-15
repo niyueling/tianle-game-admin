@@ -1,0 +1,354 @@
+/** S 背景颜色 **/
+.bg-primary {
+    background-color: $--color-primary;
+}
+
+.bg-white {
+    background-color: $--color-white;
+}
+
+.bg-body {
+    background-color: $--background-color-base;
+}
+/** E 背景颜色 **/
+
+/** S 字体颜色 **/
+.primary {
+    color: $--color-primary;
+}
+
+.black {
+    color: $--color-black;
+}
+
+.white {
+    color: $--color-white;
+}
+
+.normal {
+    color: $--color-text-primary;
+}
+
+.lighter {
+    color: $--color-text-regular;
+}
+
+.muted {
+    color: $--color-text-secondary;
+}
+/** E 字体颜色 **/
+
+.border-bottom {
+    border-bottom: $--border-base;
+}
+.border-top {
+    border-top: $--border-base;
+}
+
+.border-left {
+    border-left: $--border-base;
+}
+.border-right {
+    border-right: $--border-base;
+}
+
+.border {
+    border: $--border-base;
+}
+
+// 字体字重
+@for $i from 100 through 900 {
+    @if $i % 100 == 0 {
+        .weight-#{$i} {
+            font-weight: $i;
+        }
+    }
+}
+
+/** S 字体大小 **/
+.xxl {
+    font-size: 18px;
+}
+
+.xl {
+    font-size: 17px;
+}
+
+.lg {
+    font-size: 16px;
+}
+
+.md {
+    font-size: 15px;
+}
+
+.nr {
+    font-size: 14px;
+}
+
+.sm {
+    font-size: 13px;
+}
+
+.xs {
+    font-size: 12px;
+}
+
+.xxs {
+    font-size: 11px;
+}
+
+// 字体大小[19-40]
+@for $i from 19 through 40 {
+    .font-size-#{$i} {
+        font-size: $i + px;
+    }
+}
+/** E 字体大小 **/
+
+// 内、外边距[1-60]
+@for $i from 0 through 60 {
+    // 只要偶数和能被5整除的数
+    @if $i % 2 == 0 or $i % 5 == 0 {
+        // 如：m-30
+        .m-#{$i} {
+            margin: $i + px;
+        }
+
+        // 如：p-30
+        .p-#{$i} {
+            padding: $i + px;
+        }
+
+        @each $short, $long in l left, t top, r right, b bottom {
+            //如： m-l-6
+            // 外边距
+            .m-#{$short}-#{$i} {
+                margin-#{$long}: $i + px;
+            }
+
+            //如： p-l-30
+            // 内边距
+            .p-#{$short}-#{$i} {
+                padding-#{$long}: $i + px;
+            }
+        }
+    }
+}
+
+// 行内块元素
+.inline {
+    display: inline-block;
+}
+
+// 块元素
+.block {
+    display: block;
+}
+
+// 触手
+.pointer {
+    cursor: pointer;
+}
+
+/** S 弹性布局 **/
+.flex {
+    /* #ifndef APP-NVUE */
+    display: flex;
+    /* #endif */
+    flex-direction: row;
+    align-items: center;
+}
+
+.inline-flex {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    /* #ifndef APP-NVUE */
+    display: flex;
+    /* #endif */
+    flex-direction: column;
+}
+
+// 定义flex等分
+@for $i from 0 through 5 {
+    .flex-#{$i} {
+        flex: $i;
+    }
+}
+
+.flex-none {
+    flex: none;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.col-baseline {
+    align-items: baseline;
+}
+
+.col-center {
+    align-items: center;
+}
+
+.col-top {
+    align-items: flex-start;
+}
+
+.col-bottom {
+    align-items: flex-end;
+}
+
+.col-stretch {
+    align-items: stretch;
+}
+
+.row-center {
+    justify-content: center;
+}
+
+.row-left {
+    justify-content: flex-start;
+}
+
+.row-right {
+    justify-content: flex-end;
+}
+
+.row-between {
+    justify-content: space-between;
+}
+
+.row-around {
+    justify-content: space-around;
+}
+
+/** E 弹性布局 **/
+
+/** S 内容排序方式 **/
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+/** E 内容排序方式 **/
+
+/** S 文本行数限制 **/
+.line-1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.line-2 {
+    -webkit-line-clamp: 2;
+}
+
+.line-3 {
+    -webkit-line-clamp: 3;
+}
+
+.line-4 {
+    -webkit-line-clamp: 4;
+}
+
+.line-2,
+.line-3,
+.line-4 {
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; // 弹性伸缩盒
+    -webkit-box-orient: vertical; // 设置伸缩盒子元素排列方式
+}
+/** E 文本行数限制 **/
+
+/* 中划线 */
+.line-through {
+    text-decoration: line-through;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+// 块卡片
+.ls-card {
+    border-radius: 8px;
+    background-color: $--color-white;
+    padding: 24px;
+    flex: 1;
+}
+
+// 公共底部固定
+.ls-fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: $--aside-menu-width;
+    height: 60px;
+    right: 0;
+    z-index: 99;
+}
+
+.ls-del-wrap {
+    position: relative;
+    &:hover > .el-icon-close.ls-icon-del {
+        display: block;
+    }
+    .el-icon-close.ls-icon-del {
+        display: none;
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        line-height: 16px;
+        width: 16px;
+        height: 16px;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.ls-edit-wrap {
+    .ls-edit {
+        opacity: 0;
+        margin-left: 5px;
+    }
+    &:hover {
+        .ls-edit {
+            opacity: 1;
+        }
+    }
+}
+
+.image-error {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+// 进度条颜色
+#nprogress .bar {
+    background: $--color-primary !important;
+}

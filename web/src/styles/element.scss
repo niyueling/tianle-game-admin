@@ -1,0 +1,122 @@
+#app .el-main {
+    padding: 0;
+}
+
+.el-menu.el-menu--horizontal {
+    border-bottom: none;
+}
+
+.el-menu {
+    border-right: none;
+}
+
+.ls-scrollbar.el-scrollbar .el-scrollbar__wrap {
+    overflow-x: hidden;
+}
+
+.ls-view .el-tabs .el-tabs__item {
+    height: 60px;
+    line-height: 60px;
+}
+
+.el-tabs .el-tabs__nav-wrap::after {
+    height: 1px;
+    background-color: $--border-color-base;
+}
+
+.el-input-group__prepend {
+    background-color: $--color-white;
+}
+
+.el-loading-spinner {
+    font-size: 26px;
+}
+
+.el-form {
+    .el-form-item--small.el-form-item {
+        margin-bottom: 20px;
+    }
+    .el-form-item--mini.el-form-item {
+        margin-bottom: 16px;
+    }
+    .el-form-item__label {
+        padding-right: 16px;
+    }
+
+    .el-form-item__content {
+        font-size: $--font-size-base;
+        & > .el-cascader,
+        & > .el-select,
+        & > .el-input {
+            width: 280px;
+        }
+    }
+}
+
+.el-textarea .el-textarea__inner {
+    resize: none;
+}
+
+.el-tabs__header {
+    margin-bottom: 20px;
+}
+
+.el-table.el-table--mini thead tr th {
+    background-color: #f5f8ff;
+    padding: 12px 0;
+    font-weight: 400;
+    color: $--color-black;
+}
+
+.el-image .el-image__error {
+    font-size: 12px;
+}
+
+.el-divider.el-divider--vertical {
+    height: 1.1em;
+    background-color: $--color-primary;
+}
+
+.el-alert.el-alert--info.is-light {
+    background-color: $--color-primary-light-9;
+    color: $--color-primary;
+}
+
+.el-dialog__wrapper .el-dialog {
+    border-radius: 5px;
+    .el-dialog__body {
+        padding: 10px 20px;
+    }
+}
+
+.el-input-group__prepend {
+    background: #fff;
+}
+
+.el-tag-text.el-tag.el-tag--light {
+    background-color: transparent;
+    border: none;
+}
+
+.el-page-header__content {
+    font-size: 16px;
+}
+
+.el-table__fixed::before,
+.el-table__fixed-right::before {
+    z-index: 2;
+}
+
+.el-time-range-picker .el-time-spinner__wrapper {
+    box-sizing: content-box;
+    & .el-scrollbar__wrap {
+        box-sizing: content-box;
+    }
+}
+
+.el-input {
+    .el-input-group__append,
+    .el-input-group__prepend {
+        padding: 0 15px;
+    }
+}

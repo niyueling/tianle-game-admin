@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/server/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/server/vendor/alibabacloud/client" />
+      <path value="$PROJECT_DIR$/server/vendor/alibabacloud/tea-fileform" />
+      <path value="$PROJECT_DIR$/server/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/server/vendor/alibabacloud/tea" />
+      <path value="$PROJECT_DIR$/server/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/server/vendor/rmccue/requests" />
+      <path value="$PROJECT_DIR$/server/vendor/aliyuncs/oss-sdk-php" />
+      <path value="$PROJECT_DIR$/server/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-multi-app" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-swoole" />
+      <path value="$PROJECT_DIR$/server/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/command" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/server/vendor/composer" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-template" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-view" />
+      <path value="$PROJECT_DIR$/server/vendor/qcloud/cos-sdk-v5" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/guzzle-services" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/server/vendor/yly-openapi/yly-openapi-sdk" />
+      <path value="$PROJECT_DIR$/server/vendor/overtrue/socialite" />
+      <path value="$PROJECT_DIR$/server/vendor/adbario/php-dot-notation" />
+      <path value="$PROJECT_DIR$/server/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/server/vendor/overtrue/wechat" />
+      <path value="$PROJECT_DIR$/server/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/server/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/server/vendor/stechstudio/backoff" />
+      <path value="$PROJECT_DIR$/server/vendor/open-smf/connection-pool" />
+      <path value="$PROJECT_DIR$/server/vendor/easywechat-composer/easywechat-composer" />
+      <path value="$PROJECT_DIR$/server/vendor/swoole/ide-helper" />
+      <path value="$PROJECT_DIR$/server/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/server/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/server/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/server/vendor/alipaysdk/easysdk" />
+      <path value="$PROJECT_DIR$/server/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/server/vendor/xin/helper" />
+      <path value="$PROJECT_DIR$/server/vendor/xin/container" />
+      <path value="$PROJECT_DIR$/server/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/server/vendor/tencentcloud/tencentcloud-sdk-php" />
+      <path value="$PROJECT_DIR$/server/vendor/danielstjules/stringy" />
+      <path value="$PROJECT_DIR$/server/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/server/vendor/clagiordano/weblibs-configmanager" />
+      <path value="$PROJECT_DIR$/server/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/server/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/server/vendor/songshenzong/support" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/qiniu/php-sdk" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-factory" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

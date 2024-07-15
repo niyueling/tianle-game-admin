@@ -1,0 +1,62 @@
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--color-primary: #4073fa !default;
+/// color|1|Background Color|4
+$--color-white: #ffffff !default;
+/// color|1|Background Color|4
+$--color-black: #333333 !default;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; /* 8cc5ff */
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /* a0cfff */
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+
+/// color|1|Font Color|2
+$--color-text-primary: #333333 !default;
+/// color|1|Font Color|2
+$--color-text-regular: #666666 !default;
+/// color|1|Font Color|2
+$--color-text-secondary: #999999 !default;
+/// color|1|Font Color|2
+$--color-text-placeholder: #999999 !default;
+/// color|1|Border Color|3
+$--border-color-base: #e5e5e5e5 !default;
+/// color|1|Border Color|3
+$--border-color-light: #f2f2f2f2 !default;
+/// color|1|Functional Color|1
+$--color-success: #67c23a !default;
+/// color|1|Functional Color|1
+$--color-warning: #fb9400 !default;
+/// color|1|Functional Color|1
+$--color-danger: #f56c6c !default;
+/// color|1|Functional Color|1
+$--color-info: #909399 !default;
+// Background
+/// color|1|Background Color|4
+$--background-color-base: #f5f7f9 !default;
+
+/* Border
+-------------------------- */
+$--border-width-base: 1px !default;
+$--border-style-base: solid !default;
+$--border-color-hover: $--color-primary !default;
+$--border-base: $--border-width-base $--border-style-base $--border-color-base !default;
+
+$--font-size-base: 12px !default;
+
+//  Menu
+$--aside-menu-width: 150px;
+
+$--header-height: 64px;
+
+:export {
+    primary: $--color-primary;
+    white: $--color-white;
+    asideMenuWidth: $--aside-menu-width;
+    headerHeight: $--header-height;
+}

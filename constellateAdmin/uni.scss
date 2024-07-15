@@ -1,0 +1,147 @@
+
+
+// default_color是主题色
+// minor_color用于渐变色
+
+/* 颜色变量 */
+$themes: (
+  red_theme: (
+    default_color: #FF2C3C,
+	minor_color: #F95F2F
+  ),
+  orange_theme: (
+	default_color: #f7971e,
+	minor_color: #ffd200
+  ),
+  pink_theme: (
+	default_color: #fa444d,
+	minor_color: #fd498f
+  ),
+  gold_theme: (
+	default_color: #e0a356,
+	minor_color: #ebc389
+  ),
+  blue_theme: (
+	default_color:#2f80ed,
+	minor_color: #56ccf2
+  ),
+  green_theme: (
+	default_color:#2ec840,
+	minor_color: #3de650
+  )
+);
+//遍历主题map
+@mixin theme_each {
+  @each $theme-name, $theme-map in $themes {
+    $theme-color: $theme-map !global;
+	[data-theme=#{$theme-name}] & {
+		@at-root #{&} {
+			@content
+		}
+	}
+  }
+}
+
+// 获取导出的主题色
+@function get_export_color($name) {
+	$theme-name: map-get($themes, $name);
+	@return map-get($theme-name, 'default_color');
+}
+
+// 获取主题色
+@function get_color($key) {
+	@return map-get($theme-color, $key);
+}
+//获取背景颜色
+@mixin background_color($alpha: 1) {
+  @include theme_each {
+    background-color: rgba(get_color('default_color'),$alpha);;
+  }
+}
+
+//获取渐变背景颜色
+@mixin background_linear($deg: 90deg, $min: 0%, $max: 100%) {
+  @include theme_each {
+    background-image: linear-gradient($deg, get_color('minor_color') $min, get_color('default_color') $max);
+  }
+}
+
+//获取渐变背景图片和颜色
+@mixin background_image($deg: 90deg, $min: 0%, $max: 100%, $url: '') {
+  @include theme_each {
+    background-image: url($url),linear-gradient($deg, get_color('minor_color') $min, get_color('default_color') $max);
+  }
+}
+
+// 设置阴影
+@mixin box_shadow($x, $y, $blur, $spread: 0, $box: inset) {
+  @include theme_each {
+    box-shadow: $x $y $blur $spread get_color('default_color') $box;
+  }
+}
+
+//获取字体颜色
+@mixin font_color() {
+  @include theme_each {
+    color: get_color('default_color');
+  }
+}
+
+//获取边框颜色
+@mixin border_color() {
+  @include theme_each {
+    border-color: get_color('default_color');
+  }
+}
+
+$-color-primary: #3868F9;
+
+//主要边框颜色
+$-color-border: #E5E5E5;
+
+//黑色
+$-color-black:#101010;
+
+//白色
+$-color-white: #ffffff;
+
+//字体主色
+$-color-normal: #333333;
+
+//字体浅色
+$-color-lighter: #666666;
+
+//字体更浅色
+$-color-muted: #999999;
+
+//背景色
+$-color-body: #F6F6F6;
+
+/** S Font's size **/
+$-font-size-xxs: 22rpx;
+$-font-size-xs: 24rpx;
+$-font-size-sm: 26rpx;
+$-font-size-nr: 28rpx;
+$-font-size-md: 30rpx;
+$-font-size-lg: 32rpx;
+$-font-size-xl: 34rpx;
+$-font-size-xxl: 36rpx;
+/** E Font's size **/
+
+//边框
+$-solid-border: 1px solid $-color-border;
+$-dashed-border: 1px dashed $-color-border;
+$-dotted-border: 1px dotted $-color-border;
+
+// 引入uview主题
+@import "components/uview-ui/theme.scss";
+
+:export {
+    red_theme: get_export_color('red_theme');
+	orange_theme: get_export_color('orange_theme');
+	pink_theme: get_export_color('pink_theme');
+	gold_theme: get_export_color('gold_theme');
+	blue_theme: get_export_color('blue_theme');
+	green_theme: get_export_color('green_theme');
+}
+

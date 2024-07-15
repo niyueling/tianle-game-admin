@@ -1,0 +1,44 @@
+version: "3"
+services:
+  nginx:
+    image: nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/mahjong.conf:/etc/nginx/mahjong.conf
+    depends_on:
+      - php
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php
+    volumes:
+      - .:/var/www/html
+    environment:
+      - TZ=Asia/Shanghai
+    depends_on:
+      - mysql
+      - mongo
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mahjong
+      MYSQL_USER: mahjong
+      MYSQL_PASSWORD: mahjong123!
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql:/var/lib/mysql
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+volumes:
+  mysql:

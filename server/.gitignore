@@ -1,0 +1,17 @@
+/.idea
+/.vscode
+*.log
+.env
+
+/runtime/*
+!/runtime/file/export/index.html
+
+
+/public/uploads/*
+!/public/uploads/index.html
+
+
+/config/install.lock
+
+/public/upgrade/*
+!/public/upgrade/version.json

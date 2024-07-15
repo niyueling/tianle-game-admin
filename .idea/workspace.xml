@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18c2071e-d780-489a-811b-1944e01a621e" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/adminapi/logic/AccountLogLogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/adminapi/logic/AccountLogLogic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/adminapi/service/AdminTokenService.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/adminapi/service/AdminTokenService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/images/mahjong/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/images/mahjong/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/images/mahjong/43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/images/mahjong/44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/images/mahjong/45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/images/mahjong/46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/images/mahjong/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/images/mahjong/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/finance/user/user_rooms.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/finance/user/user_rooms.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/finance/user/user_rooms_details.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/finance/user/user_rooms_details.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/finance/user/user_rooms_rule.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/finance/user/user_rooms_rule.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/user/lists.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/user/lists.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../old-mahjong-code/server/app/adminapi/logic/AccountLogLogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/../old-mahjong-code/server/app/adminapi/logic/AccountLogLogic.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/server/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/server/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/server/vendor/alibabacloud/client" />
+      <path value="$PROJECT_DIR$/server/vendor/alibabacloud/tea-fileform" />
+      <path value="$PROJECT_DIR$/server/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/server/vendor/alibabacloud/tea" />
+      <path value="$PROJECT_DIR$/server/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/server/vendor/rmccue/requests" />
+      <path value="$PROJECT_DIR$/server/vendor/aliyuncs/oss-sdk-php" />
+      <path value="$PROJECT_DIR$/server/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-multi-app" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-swoole" />
+      <path value="$PROJECT_DIR$/server/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/command" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/server/vendor/composer" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-template" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-view" />
+      <path value="$PROJECT_DIR$/server/vendor/qcloud/cos-sdk-v5" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/guzzle-services" />
+      <path value="$PROJECT_DIR$/server/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/server/vendor/yly-openapi/yly-openapi-sdk" />
+      <path value="$PROJECT_DIR$/server/vendor/overtrue/socialite" />
+      <path value="$PROJECT_DIR$/server/vendor/adbario/php-dot-notation" />
+      <path value="$PROJECT_DIR$/server/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/server/vendor/overtrue/wechat" />
+      <path value="$PROJECT_DIR$/server/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/server/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/server/vendor/stechstudio/backoff" />
+      <path value="$PROJECT_DIR$/server/vendor/open-smf/connection-pool" />
+      <path value="$PROJECT_DIR$/server/vendor/easywechat-composer/easywechat-composer" />
+      <path value="$PROJECT_DIR$/server/vendor/swoole/ide-helper" />
+      <path value="$PROJECT_DIR$/server/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/server/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/server/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/server/vendor/alipaysdk/easysdk" />
+      <path value="$PROJECT_DIR$/server/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/server/vendor/xin/helper" />
+      <path value="$PROJECT_DIR$/server/vendor/xin/container" />
+      <path value="$PROJECT_DIR$/server/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/server/vendor/tencentcloud/tencentcloud-sdk-php" />
+      <path value="$PROJECT_DIR$/server/vendor/danielstjules/stringy" />
+      <path value="$PROJECT_DIR$/server/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/server/vendor/clagiordano/weblibs-configmanager" />
+      <path value="$PROJECT_DIR$/server/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/server/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/server/vendor/songshenzong/support" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/qiniu/php-sdk" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-factory" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2UHJ5kQyoOnlOGCRqud6mWb4ezU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.JavaScript.Linters.JSHint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\work\\tianle-phpadmin\\constellate\\web\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/web/composer.json" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="18c2071e-d780-489a-811b-1944e01a621e" name="更改" comment="" />
+      <created>1692590391592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692590391592</updated>
+      <workItem from="1692590392748" duration="1317000" />
+      <workItem from="1720417064218" duration="28571000" />
+      <workItem from="1721011353457" duration="436000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/web/src/api/setting/user.d.ts" />
+        <option value="$PROJECT_DIR$/web/src/api/setting/payment.d.ts" />
+        <option value="$PROJECT_DIR$/web/src/api/setting/permissions.d.ts" />
+        <option value="$PROJECT_DIR$/web/src/api/setting/system_maintain/system_maintain.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

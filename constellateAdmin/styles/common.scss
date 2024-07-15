@@ -1,0 +1,307 @@
+
+page {
+    /* 定义一些主题色及基础样式 */
+    font-family: PingFang SC, Arial, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    font-size: 28rpx;
+    color: $-color-normal;
+	padding-bottom: env(safe-area-inset-bottom);
+    background-color: $-color-body;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+/* 定义字体颜色 */
+.black {
+    color: $-color-black;
+}
+
+.white {
+    color: $-color-white;
+}
+
+.normal {
+    color: $-color-normal;
+}
+
+.lighter {
+    color: $-color-lighter;
+}
+
+.muted {
+    color: $-color-muted;
+}
+.primary{
+	color: #3868f9;
+}
+.red{
+	color: red;
+}
+
+/* 定义背景颜色 */
+.bg-white {
+    background-color: $-color-white;
+}
+.bg-body {
+    background-color: $-color-body;
+}
+.bg-gray {
+    background-color: $-color-border;
+}
+
+
+
+
+/* 定义字体大小 */
+
+.xxl {
+    font-size: $-font-size-xxl;
+}
+
+.xl {
+    font-size: $-font-size-xl;
+}
+
+.lg {
+    font-size: $-font-size-lg;
+}
+
+.md {
+    font-size: $-font-size-md;
+}
+.nr {
+  font-size: $-font-size-nr;
+}
+.sm {
+    font-size: $-font-size-sm;
+}
+
+.xs {
+    font-size: $-font-size-xs;
+}
+
+.xxs {
+    font-size: $-font-size-xxs;
+}
+
+// 定义内外边距，历遍1-80
+@for $i from 0 through 60 {
+	// 只要双数和能被5除尽的数
+	@if $i % 2 == 0 or $i % 5 == 0 {
+		// 如：m-30
+		.m-#{$i} {
+			margin: $i + rpx;
+		}
+		
+		// 如：p-30
+		.p-#{$i} {
+			padding: $i + rpx;
+		}
+		
+		@each $short, $long in l left, t top, r right, b bottom {
+			//结果如： m-l-30
+			// 定义外边距
+			.m-#{$short}-#{$i} {
+				margin-#{$long}: $i + rpx;
+			}
+			
+			// 定义内边距
+			//结果如： p-l-30
+			.p-#{$short}-#{$i} {
+				padding-#{$long}: $i + rpx;
+			}
+		}
+	}
+}
+.inline {
+	display: inline-block;
+}
+/* 定义常用的弹性布局 */
+.flex {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+	align-items: center;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-nowrap {
+	flex-wrap: nowrap;
+}
+.col-baseline {
+	align-items: baseline;
+}
+.col-center {
+	align-items: center;
+}
+
+.col-top {
+	align-items: flex-start;
+}
+
+.col-bottom {
+	align-items: flex-end;
+}
+.col-stretch {
+	align-items:stretch;
+}
+.row-center {
+	justify-content: center;
+}
+
+.row-left {
+	justify-content: flex-start;
+}
+
+.row-right {
+	justify-content: flex-end;
+}
+
+.row-between {
+	justify-content: space-between;
+}
+.row-around {
+	justify-content: space-around;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.flex-col {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: column;
+}
+
+
+// 定义flex等分
+@for $i from 0 through 5 {
+	.flex-#{$i} {
+		flex: $i;
+	}
+}
+.flex-none {
+	flex: none;
+}
+
+// 定义字体大小，38-60的字体
+@for $i from 38 through 60 {
+	@if $i % 2 == 0 {
+		.font-size-#{$i} {
+			font-size: $i + rpx;
+		}
+	}
+}
+
+
+/* 超出隐藏 */
+/* start--文本行数限制--start */
+.line-1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.line-2 {
+    -webkit-line-clamp: 2;
+}
+
+.line-3 {
+    -webkit-line-clamp: 3;
+}
+
+.line-2, .line-3, {
+    overflow: hidden;
+	word-break: break-all;
+    text-overflow: ellipsis; 
+    display: -webkit-box; // 弹性伸缩盒
+    -webkit-box-orient: vertical; // 设置伸缩盒子元素排列方式
+}
+
+/* 中划线 */
+.line-through {
+    text-decoration: line-through;
+}
+
+
+/* br60 */
+.br60 {
+    border-radius: 60rpx;
+}
+
+/* 初始化按钮 */
+page button {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 28rpx;
+    overflow: unset;
+	margin-left: 0;
+	margin-right: 0;
+}
+page button::after {
+	border: none;
+}
+
+/* 按钮大小 */
+button[size="xs"]{
+    line-height: 58rpx;
+    height: 58rpx;
+    font-size: 26rpx;
+    padding: 0 30rpx;
+}
+
+button[size="sm"] {
+    line-height: 62rpx;
+    height: 62rpx;
+    font-size: 28rpx;
+    padding: 0 30rpx;
+}
+
+button[size="md"]{
+    line-height: 70rpx;
+    height: 70rpx;
+    font-size: 30rpx;
+    padding: 0 30rpx;
+}
+button[size="lg"]{
+    line-height: 80rpx;
+    height: 80rpx;
+    font-size: 32rpx;
+    padding: 0 30rpx;
+}
+
+
+.img-null {
+	width: 300rpx;
+	height: 300rpx;
+}
+.u-image image {
+  display: block;
+}
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+
+
+

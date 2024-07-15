@@ -1,0 +1,114 @@
+/**
+ * 自定义动画
+ */
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* 旋转 */
+.xuanzhun {
+	animation: rotation 1s linear infinite;
+}
+
+
+/* 加载动画 */
+@keyframes translate-line1 {
+
+	30%,
+	50% {
+		height: 20rpx;
+		transform: translateY(-10rpx);
+	}
+
+	75%,
+	100% {
+		height: 10rpx;
+		transform: translateY(0);
+	}
+}
+
+@keyframes translate-line2 {
+
+	30%,
+	50% {
+		height: 40rpx;
+		transform: translateY(-20rpx);
+	}
+
+	75%,
+	100% {
+		height: 10rpx;
+		transform: translateY(0);
+	}
+
+}
+
+@keyframes translate-line3 {
+
+	30%,
+	50% {
+		height: 60rpx;
+		transform: translateY(-30rpx);
+	}
+
+	75%,
+	100% {
+		height: 10rpx;
+		transform: translateY(0);
+	}
+}
+
+.translate-line {
+	width: 60rpx;
+	height: 30rpx;
+
+	display: flex;
+
+	.line {
+		flex: 1;
+		margin: 2rpx;
+		height: 10rpx;
+
+		&:nth-child(1) {
+			background-color: #f62e74;
+			animation: translate-line1 2s infinite;
+		}
+
+		&:nth-child(2) {
+			background-color: #f45330;
+			animation: translate-line2 2s infinite;
+			animation-delay: 0.15s;
+		}
+
+		&:nth-child(3) {
+			background-color: #ffc883;
+			animation: translate-line3 2s infinite;
+			animation-delay: 0.3s;
+		}
+
+		&:nth-child(4) {
+			background-color: #30d268;
+			animation: translate-line3 2s infinite;
+			animation-delay: 0.45s;
+		}
+
+		&:nth-child(5) {
+			background-color: #006cb4;
+			animation: translate-line2 2s infinite;
+			animation-delay: 0.6s;
+		}
+
+		&:nth-child(6) {
+			background-color: #784697;
+			animation: translate-line1 2s infinite;
+			animation-delay: 0.75s;
+		}
+	}
+}

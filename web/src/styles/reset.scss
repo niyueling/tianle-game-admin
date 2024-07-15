@@ -1,0 +1,45 @@
+body {
+    /* 定义一些主题色及基础样式 */
+    font-family: PingFang SC, Arial, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background-color: $--background-color-base;
+    font-weight: 400;
+    overflow-y: hidden;
+    overflow-x: auto;
+    color: $--color-text-primary;
+    line-height: 1.3;
+}
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+button,
+input {
+    font-family: PingFang SC, Arial, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+    font-size: 12px;
+}
+
+ul,
+li,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+// 去除number类型input框加减号
+/* 谷歌 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+/* 火狐 */
+input {
+    -moz-appearance: textfield;
+}
